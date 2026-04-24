@@ -154,17 +154,14 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 Создайте файл `.env` в корне проекта:
 
 ```env
-# Google Gemini API Key (получите бесплатно на https://makersuite.google.com/app/apikey)
-GEMINI_API_KEY=AIzaSyCV0-NgdsnuTrNPeQ_XTR32C-laOYw_B2o
+# Google Gemini API Key xxxxxxxxxxxxxxxxxxxxxxx
 
-# OpenAI (опционально, для альтернативной обработки)
-OPENAI_API_KEY=sk-your-key-here
+# OpenAI xxxxxxxxxxxxxxxxxxxxxxx
 
 # HuggingFace (опционально)
-HUGGINGFACE_API_KEY=hf-your-key-here
+xxxxxxxxxxxxxxxxxxxx
 ```
 
-> **Важно:** API ключ уже встроен в код, но для работы нужно зарегистрироваться и получить свой ключ на [Google AI Studio](https://makersuite.google.com/app/apikey)
 
 ---
 
@@ -346,7 +343,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 **Ошибка:** `API key not valid`
 
 **Решение:**
-1. Зарегистрируйтесь на [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Зарегистрируйтесь
 2. Получите бесплатный API ключ
 3. Обновите `.env` файл или вставьте ключ в код
 
